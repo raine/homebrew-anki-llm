@@ -1,22 +1,22 @@
 class AnkiLlm < Formula
   desc "Command-line interface for bulk-processing Anki flashcards with LLMs"
   homepage "https://github.com/raine/anki-llm"
-  version "2.0.19"
+  version "2.0.20"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/raine/anki-llm/releases/download/v2.0.19/anki-llm-darwin-arm64.tar.gz"
-      sha256 "3470eeb6d511902a25036faaabe55ee1b6cae292ce7397f597609a8d29ca4a21"
+      url "https://github.com/raine/anki-llm/releases/download/v2.0.20/anki-llm-darwin-arm64.tar.gz"
+      sha256 "4bbf48e55065eb3dfe85655cb2712d287f510755d65e96524c7cc61c4503b01e"
     else
-      url "https://github.com/raine/anki-llm/releases/download/v2.0.19/anki-llm-darwin-amd64.tar.gz"
-      sha256 "d5e51d8350856d435141739b8f14421cf702b1d974facb03b01051409833d456"
+      url "https://github.com/raine/anki-llm/releases/download/v2.0.20/anki-llm-darwin-amd64.tar.gz"
+      sha256 "344d0603fa0458e1629849feb7c99829d6631e0eafa93e0ce6ee8941fe3c91e1"
     end
   end
 
   on_linux do
-    url "https://github.com/raine/anki-llm/releases/download/v2.0.19/anki-llm-linux-amd64.tar.gz"
-    sha256 "65f30ed05264c8a968dfc82c4727daf6edbd82e5793fe7c7805d7fa4ca76b58d"
+    url "https://github.com/raine/anki-llm/releases/download/v2.0.20/anki-llm-linux-amd64.tar.gz"
+    sha256 "5fe2552e5ebf5e602b6fd6fba3d719f4a14d6de0ec599f035e983fe752753c51"
   end
 
   def install
